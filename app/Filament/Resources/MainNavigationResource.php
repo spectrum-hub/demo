@@ -45,7 +45,7 @@ class MainNavigationResource extends Resource
                     ->searchable()
                     ->toggleable()->sortable(),
                 Tables\Columns\TextColumn::make('url')->sortable(),
-                Tables\Columns\TextColumn::make('Харагдах дараалал')->sortable(),
+                Tables\Columns\TextColumn::make('Дараалал')->sortable(),
             ])->defaultSort('sort_order')
             ->filters([
                 Tables\Filters\Filter::make('title')
